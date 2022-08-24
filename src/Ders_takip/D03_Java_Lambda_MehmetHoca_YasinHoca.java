@@ -44,7 +44,7 @@ public class D03_Java_Lambda_MehmetHoca_YasinHoca {
 37. Session Java 35 Inheritance 29 07                                   -------->X
 38. Session Java 36 Inheritance'da Data Type Kullanimi 30 07            -------->X
 39. Session Java 37 Overridding Polymorphism 01 08                      -------->X
-40. Session Java 38 Exception 0208                                      -------->X calis tam anlamadim
+40. Session Java 38 Exception 0208                                      -------->X calis tam anlamadim 
 41. Session Java 38 Exception 0308                                      -------->X calis tam anlamadim
 42. Session Java 40 Exception 0408                                      -------->X calis tam anlamadim
 43. Session Java 41 Abstract Clases 0508                                -------->X
