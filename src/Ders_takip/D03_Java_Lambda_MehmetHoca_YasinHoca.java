@@ -27,7 +27,7 @@ public class D03_Java_Lambda_MehmetHoca_YasinHoca {
 20. Session Java while loop - do while loop 06 07                       -------->X
 21. Session Java 19 Scope 07 07                                         -------->X
 22. Session Java 20 Scope Arrays 08 07                                  -------->X
-23. Session Java 21 Arrays 13 07                                        -------->X
+23. Session Java 21 Arrays 13 07                                        -------->X teamCalisma
 24. Session Java 22 Multi Dimensional Array                             -------->X
 25. Session Java 23 Array List 15 07                                    -------->X
 26. Session Java 24 Array List For Each Loop 16 07                      -------->X
@@ -44,7 +44,7 @@ public class D03_Java_Lambda_MehmetHoca_YasinHoca {
 37. Session Java 35 Inheritance 29 07                                   -------->X
 38. Session Java 36 Inheritance'da Data Type Kullanimi 30 07            -------->X
 39. Session Java 37 Overridding Polymorphism 01 08                      -------->X
-40. Session Java 38 Exception 0208                                      -------->X calis tam anlamadim 
+40. Session Java 38 Exception 0208                                      -------->X calis tam anlamadim
 41. Session Java 38 Exception 0308                                      -------->X calis tam anlamadim
 42. Session Java 40 Exception 0408                                      -------->X calis tam anlamadim
 43. Session Java 41 Abstract Clases 0508                                -------->X
