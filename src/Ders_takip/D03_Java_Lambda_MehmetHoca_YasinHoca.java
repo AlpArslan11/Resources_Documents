@@ -51,7 +51,7 @@ public class D03_Java_Lambda_MehmetHoca_YasinHoca {
 44. Session Java 42 Abstract Clases Interface 0608                      -------->X
 45. Session Java 43 interfaces Iterators 0808                           -------->X
 46. Session JAVA 44 Iterators Collections 0908                          -------->Xx
-47. Session JAVA 45 QDS 1008                                            -------->
+47. Session JAVA 45 QDS 1008                                            -------->x
 48. Session JAVA 46 Maps 1108                                           -------->
 49. Session JAVA 46 Maps 1108 part2                                     -------->
 50. Session JAVA 47 MAPS 1208                                           -------->
