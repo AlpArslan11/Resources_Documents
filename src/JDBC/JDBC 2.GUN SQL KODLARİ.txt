@@ -1,0 +1,34 @@
+-- Function Olusturma
+-- //1. Örnek: İki parametre ile çalışıp bu parametreleri toplayarak return yapan bir fonksiyon oluşturun.
+
+CREATE OR REPLACE FUNCTION toplamaFunction(x NUMERIC, y NUMERIC)
+RETURNS NUMERIC
+LANGUAGE plpgsql
+AS 
+$$
+BEGIN
+
+RETURN x+y;
+
+
+END
+$$
+
+
+SELECT * FROM toplamaFunction(15,25) AS toplam;
+
+
+CREATE OR REPLACE FUNCTION koniHacimHesapla(r NUMERIC, h NUMERIC)
+RETURNS NUMERIC
+LANGUAGE plpgsql
+AS
+$$
+BEGIN
+               
+RETURN 3.14*r*r*h/3;
+                
+                
+END
+$$
+
+SELECT * FROM koniHacimHesapla(3,5) AS koniHacmi;
