@@ -1,5 +1,0 @@
-Boundy Value Analysis (Sınır değerleri Analizi) -en cok kullanilan (interview icin muhakkak)
-Equivalence Class Partitioning (Denklik Paylarına Ayırma) -en cok kullanilan (interview icin muhakkak)
-Decision Table based testing (Karar Tablosu)
-State Transition (Durum Geçiş Tablosu)
-Use Case Testing (Kullanım Durumlari Testi)
