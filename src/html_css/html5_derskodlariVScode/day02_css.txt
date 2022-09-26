@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Giris</title>
+  </head>
+  <body>
+    <h2>Döküman</h2>
+    <p style="color: red">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sint
+      consequuntur, tempore ipsum ut ab, minima provident cum ducimus vel
+      quisquam nisi.
+    </p>
+    <h2>ARSİV</h2>
+    <p style="color: red; font-size: 50px; text-align: right">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio,
+      a nulla fugiat molestiae sint.
+    </p>
+    <p
+      style="
+        background-color: blue;
+        color: yellow;
+        text-align: center;
+        display: grid;
+        font-size: larger;
+          "
+    >
+      Fenerbahçe Fenerbahçe Fenerbahçe Fenerbahçe Fenerbahçe Fenerbahçe
+      Fenerbahçe Fenerbahçe asjdalkhdjasdj
+      asd
+      addressasd
+        a
+      </address>
+    </p>
+  </body>
+</html>

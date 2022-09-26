@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+
+}
+
+
+h2{
+    color: chocolate;
+}
+
+.ilk {
+    color: blue;
+} 
+.red {color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* yorum */
+.kırmızıyap{
+    color: red;
+}
