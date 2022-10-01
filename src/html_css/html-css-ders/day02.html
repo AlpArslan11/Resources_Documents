@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day02</title>
+</head>
+
+<body>
+  <!-- IMG-->
+  <p>
+  <H3>Hayalet Galaksi</H3>
+  </p>
+  <img src="img\Heart-of-the-Phantom-Galaxy.jpg" alt="Hayalet Galaksi" height="225" width="255" /><br />
+  <p>
+  <h3>QUALITY ASSURANCE</h3>
+  </p>
+  <img src="img\Untitled-1.jpg" alt="Software Testing" />
+  <hr />
+  <!--FORM Basit-->
+  <h2>Form Uygulamasi -</h2>
+
+
+
+  <form action="/action.php">
+    <label for="fname">isim : </label><br />
+    <input type="text" name="fname" id="fname" placeholder="İsminizi giriniz" 
+    title="isim girmeniz beklenmekte bu notu title ile yazdim"/>
+    <br />
+    <label for="lname">Soyisim : </label><br />
+    <input type="text" name="lname" id="lname" placeholder="Soyisminizi giriniz" />
+    <br />
+    <input type="submit" value="Kaydet" />
+    <!--button yerine submit yazdim. bu sekilde kaydet butonu oldu-->
+  </form>
+
+
+  <!--FORM Gelismis-->
+  <H2>Form Uygulaması - 2</H2>
+  <form action="action.php">
+    İsim : <br>
+    <input type="text" name="name" placeholder="isminizi giriniz"><br>
+    Email ; <br>
+    <input type="text" ><br>
+    Hakkında : <br>
+    <!--metin alani -->
+    <textarea cols="28" rows="9"></textarea><br>
+    <!-- tekli secim icin-->
+    Cinsiyet : 
+    <input type="radio" name="" id="" value="female">Bayan
+    <input type="radio" name="" id="" value="male">Bay
+    <br>
+    <!--seceneklerde secme-->
+    Sehir : <select name="" id="">
+      <option value="06">Ankara</option>
+      <option value="34">İstanbul</option>
+      <option value="33">Mersin</option>
+    </select><br>
+    <input type="submit" value="Kaydet" />
+<br><br>
+<!--Dosya Yukleme-->
+    <input type="file" name="dosyaYukle" id="DosyaYuklemeid">
+    
+    
+
+
+
+  </form>
+</body>
+
+</html>
