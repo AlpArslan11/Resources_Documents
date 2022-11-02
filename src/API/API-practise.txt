@@ -1,0 +1,16 @@
+https://restful-booker.herokuapp.com/apidoc/index.html
+https://reqres.in/
+https://jsonplaceholder.typicode.com/
+
+---> hocanin verdikleri
+https://restful-booker.herokuapp.com/booking
+
+https://reqres.in/api/users
+
+http://dummy.restapiexample.com/api/v1/employee
+
+https://jsonplaceholder.typicode.com/
+
+https://www.gmibank.com/api/authenticate
+
+http://www.gmibank.com/api/tp-customers
