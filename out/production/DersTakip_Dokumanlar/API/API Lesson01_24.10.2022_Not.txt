@@ -1,0 +1,37 @@
+
+
+-Bütün Web Service'ler API'dir ama her API bir Web Service degildir
+
+1) GET: Sunucudan sadece veri çekmek(okuma) istiyorsak yani veri üzerinde herhangi bir deðiþiklik (ekleme, slime, modifiye) yapýlmayacaksa GET metodunu kullanmamýz tavsiye ediliyor.
+CRUD operasyonlarýndan Read’e karþýlýk geldiðini söyleyebiliriz.
+Ör: GET /students kullandýðýmýzda bize öðrenciler listesini dönmesi.
+2) POST: Server Api’e body kýsmýný doldurarak ve veri üzerinde deðiþiklik yapmak istediðimizde kullanabiliriz
+Deðiþilik yapmak ile kastedilen CRUD operasyonlarýndan Create ve Update kýsýmlarýný kapsar.
+Ör: Post /createUser ile body kýsmýna kullanýcý bilgileri girip veritabanýnda bir kullanýcý oluþturulmasý istenmesi
+3) PUT: Post isteðinin özelliklerine sahiptir. Yani CRUD operasyonlarýndan Create ve Update operasyonlarýný yapmak istediðimizde kullanýyoruz.
+Post’dan ayrýlan tarafý Put isteðinin idempotent ve not cacheable olarak tanýmlanmasý
+4) DELETE: CRUD operasyonlarýndan Delete’e karþýlýk gelir. Bir veriyi silmek istediðimizde kullanýlmasý tavsiye ediliyor.
+
+
+
+https://petstore.swagger.io/   --> Swagger Petstore incaleme sitesi
+
+https://petstore.swagger.io/			--> API
+https://restful-booker.herokuapp.com/booking	--> Tets
+https://jsonplaceholder.typicode.com/todos	--> Site 
+https://reqres.in/api/users			--> Örnekleri
+
+
+GET : getir
+	-->id ve benzer verileri inceleyabiliriz
+	-->Pretty'den kalýbý kopyalayabiliriz
+POST : Yeni kayýt oluþtur
+	--> Kopyaladýgýmýz kalýpla body'de JSON dili ile yeni kayýt olusturabiliriz
+	--> Mevcut id degisiyor dogal olarak
+PATCH : Yama yapma (Yani düzeltme)
+	--> Mevcut datanýn bir kýsmýný guncellemek için kullanýlýr 
+PUT : Bütün datayý guncelleme
+	--> Mevcut id degismeden data'da komple degisiklik yapilabilir
+DELETE : Kayýt silme 
+	--> Mevcut kaydý silmek icin kullanýlýr
+

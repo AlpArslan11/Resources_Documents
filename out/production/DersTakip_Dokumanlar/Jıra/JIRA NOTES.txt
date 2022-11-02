@@ -1,0 +1,96 @@
+BATCH81 Team5 JİRA DERS NOTLARI 25/9/2022
+PROJE OLUŞTURMA
+Project -> Create Project
+Project Templates -> Software development ->Scrum -> Use Template
+Choose a project type: Burada 2 seçenek var.
+1) Select a team-managed project: Jirayı yalın halde kullanmak için
+2) Select a company-managed project: Ekstra özelliklerini kullanmak için (Raporlama, Xray gibi)
+Select a company-managed project'i seçiyoruz.
+Name: Proje ismini yazıyoruz. Next'e TIKLIYORUZ.
+Go to Project'e TIKLIYORUZ.
+PROJEMİZ OLUŞTURULMUŞ OLDU.
+PROJEMİZE XRAY'İ EKLEMEMİZ GEREKİYOR.
+Apps -> Xray'e TIKLA
+Configure Project -> Select the project to configure
+kısmından projemizi seçiyoruz. Submit'e TIKLA
+Açılan ekranda Add Xray Issue Types'a TIKLA
+Test, Precondition, Test Set, Test Execution, Sub Test Execution
+Issue Type'ların eklendiğini göreceğiz. Back to project'e TIKLA
+ISSUE TYPE
+Standart Kurulumda 4 tane issue type var
+Story, Epic, Task, Bug
+XRay eklentisinden sonra.
+Test
+Test Set
+Test Plan
+Test Execution
+Precondition
+USER STORY VE TEST CASELERİN GİRİLMESİ
+Sol menüde Backlog'a TIKLA
+Sağ tarafta Create Sprint'e TIKLA
+Create -> Issue Type -> Story
+Summary -> User story'in ismini yaz.
+Description -> Acceptance Criteria'ları yazıyoruz.
+Assignee -> Bu User Story kime atanacaksa o seçilir.
+Priorty -> Seçilir
+Sağ alt köşedeki Creat'e TIKLANIR. User Story oluşturulmuş olur.
+(USER STORYLERİN TAMAMINI BU ŞEKİLDE BACKLOG'A EKLEYECEĞİZ)
+TEST CASE OLUŞTURMA
+1)Issue Type Test seçilir.
+2)User Story içindeki kabul kriterleri summary kısmına yazılır.
+3)Test Case ilgili User Story'e link edilir.
+(BU ADIM ÇOK ÖNEMLİ, TEST CASELER İLGİLİ USERY STORYLERE MUTLAKA LİNK EDİLMELİ)
+4)Test Steps oluşturulur
+Create -> Issue Type -> Test
+Summary -> 1. Acceptance Criteria (1. Test Case) yazılır.
+Issue -> User Story'e link edilir.
+Assignee -> Bu Test Case kime atanacaksa o seçilir.
+Priorty -> Seçilir
+Sağ alt köşedeki Creat'e TIKLANIR. Test Case oluşturulmuş olur.
+(TEST CASELERİN TAMAMINI BU ŞEKİLDE BACKLOG'A EKLEYECEĞİZ)
+OLUŞTURDUĞUMUZ USER STORYLERİ VE TEST CASELERİ, SÜRÜKLEYEREK (DRAG AND DROP)
+SPRINT KISMINA AKTARIYORUZ.
+SAĞ ÜST KÖŞEDE Start Sprint Aktif oldu. Start Sprint'e TIKLIYORUZ.
+Sprint Name: Sprintin ismi yazılır
+Duration: Sprintin süresi seçilir. 1 week, 2 weeks, 3 weeks, 4 weeks
+Start'a TIKLA
+OLUŞTURDUĞUMUZ User Storyler ve Test Caseler TO DO kısmına gelir.
+İLK USERY STORY VE TEST CASE IN PROGRESS KISMINA ALINIR.
+BÖYLELİKLE USER STORY ÜZERİNDE ÇALIŞMAYA BAŞLAMIŞ OLURUZ.
+TEST CASELERİN İÇİNDE STEP OLUŞTURACAĞIZ.
+İLK TEST CASE'E ÇİFT TIKLAYIN. ALT TARAFAT Add Step'e TIKLA
+Action, Data, Expected Result kısımlarından oluşan Step 1 açılmış oldu.
+Buraya Test Case dökümanındaki stepler teker teker girilecek.
+Action: Test Case için yapılacak hareket
+Data: Gerekli test datası
+Expected Result: Beklenen Sonuç
+İŞLEMLER GİRİLDİĞİNDE TEST CASE KAPATILIR.
+TEST SET OLUŞTURMA
+1) Issue Type Test Set seçilir
+2) User Story'in tanımı yapılır (US01 Test Set)
+3) Aynı User Story'e ait tüm Test Caseler, Test Set'e eklenir.
+(USERY STORYDE NE KADAR TEST CASE VARSA TEST SETE LINK EDİLİR.)
+Create -> Issue Type -> Test set
+Summary -> US01 TEST SET
+Issue -> Test Caseler'e link edilir.
+Assignee -> Bu Test Set kime atanacaksa o seçilir.
+Priorty -> Seçilir
+Sprint -> Test Set'in dahil olacağı Sprint seçilir.
+Create'e Tıkla. Test Set Sprint'e eklenmiş olur.
+To Do dan In progress'e çekilir.
+TEST PLAN OLUŞTURMA
+1)Issue Type Test Plan seç
+2)Tüm testler manasında bir ifade kullan summary
+3)Test setler buna eklenir
+4)Tüm test caseler buna eklenir
+5)Sonra hepsi için execution oluşturulur(run etmeye hazır)
+Issue Type -> Test Plan
+Summary -> Tüm Testler
+TEST PLANI IN PROGRESSE'E AKTAR
+TEST PLANA TIKLA
+Add tests -> Existing Test
+US001'E AİT TESTLER SEÇİLEREK EKLENİR
+ÇALIŞTIRILACAK TESTLER EKRANA GELİR. OVERALL EXECUTION STATUS BAŞLIĞIYLA
+Create Test Execution -> All Tets -> Create TIKLA
+TESTLERİ TEKER TEKER YAP. PASSED'A TIKLA
+GERİ DÖNMEK İÇİN EN ÜSTEKİ Return to test Execution
